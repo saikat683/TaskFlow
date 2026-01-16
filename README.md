@@ -78,31 +78,8 @@ Whether you're managing personal tasks or collaborating with a team, **TaskFlow*
 ├── tailwind.config.js
 └── package.json
 
-```
 
----
 
-## 🛠 Installation & Setup  
-
-### 1️⃣ Clone the Repository  
-```sh
-git clone https://github.com/your-username/taskflow.git  
-cd taskflow
-```
-
-### 2️⃣ Install Dependencies  
-
-#### 📌 Frontend  
-```sh
-cd client
-npm install
-```
-
-#### 📌 Backend  
-```sh
-cd server
-npm install
-```
 
 ### 3️⃣ Setup Environment Variables  
 Create a **.env** file inside the `/server` folder and add:  
@@ -112,54 +89,8 @@ MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_jwt_secret
 EMAIL_USER=your_email
 EMAIL_PASS=your_email_password
-```
 
-### 4️⃣ Start the Application  
 
-#### 🚀 Start Backend Server  
-```sh
-for local environment
-cd server
-node src/index.js
-backend deployed on render
-```
-
-#### 🚀 Start Frontend Development Server  
-```sh
-cd client
-npm run dev
-```
-
----
-
-## ⚡ Essential Dependencies  
-
-### 🎨 UI & Animations  
-```sh
-npm install tailwindcss@3 postcss autoprefixer
-npm install framer-motion
-npm install animate.css --save
-```
-
-### 🛠 State Management & Utilities  
-```sh
-npm install react-router-dom react-toastify react-icons
-npm install @dnd-kit/core @dnd-kit/sortable @dnd-kit/accessibility
-npm install date-fns
-```
-
-### 📊 Charts & Data Visualization  
-```sh
-npm install chart.js react-chartjs-2
-npm install react-big-calendar
-```
-
-### 🔒 Backend & Security  
-```sh
-npm install bcryptjs cors dotenv express
-npm i jsonwebtoken mongoose
-npm install crypto nodemailer
-```
 
 ## 🚀 Features Breakdown  
 
@@ -185,4 +116,4 @@ npm install crypto nodemailer
 
 ---
 
-**🚀 TaskFlow - Your Productivity, Simplified!** 💡✨  
+**🚀 TaskFlow - Your Productivity, Simplified!**  
